@@ -1,0 +1,122 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-size: 20px;
+  color: rgb(59, 42, 21);
+  box-sizing: border-box;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* border: 2px solid red; */
+}
+
+html {
+  margin: 0.5rem 2rem;
+  background-color: rgb(27, 214, 111);
+  overflow-y: hidden;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu {
+  display: inline;
+  align-items: center;
+}
+.menu li {
+  list-style: none;
+  display: inline;
+  margin: auto 0.5rem;
+  font-weight: bold;
+}
+
+.menu-items {
+  padding-right: 1.5rem;
+  padding-top: 0.5em;
+  display: inline-flex;
+  align-items: center;
+
+  float: right;
+}
+.logo {
+  display: inline;
+}
+.logo span {
+  color: blue;
+}
+.logo,
+.logo span {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.superbox {
+  /* border: 2px solid red; */
+  margin: 1rem;
+  height: 80vh;
+  display: flex;
+}
+.v {
+  border: 2px solid black;
+}
+
+.main-box {
+  border-radius: 1rem;
+  margin: 0.3rem auto;
+}
+
+.alpha {
+  width: 24%;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.beta {
+  width: 50%;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.gamma {
+  width: 24%;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.main-box span {
+  display: block;
+}
+.boxhead {
+  text-align: center;
+  margin: 0.7rem;
+}
+
+.notification{
+  background-color: rgb(27, 214, 111);
+  border-radius: 0.3rem;
+  margin: 0.5rem 0.4rem 0.3rem 0.4rem;
+  padding: 0.2rem;
+  font-size: 0.7rem;
+  display: flex;
+}
+
+
+.notice-heading{
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+
+.notices{
+  font-size: 0.6rem;
+}
+
+.sprofile{
+  height: 2.7rem;
+  padding: 0.1rem;
+}
+
+.notice-content{
+  padding: 0.28rem;
+}
