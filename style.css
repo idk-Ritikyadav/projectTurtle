@@ -70,18 +70,21 @@ a {
   width: 24%;
   background-color: white;
   opacity: 0.8;
+  padding: 0.3rem;
 }
 
 .beta {
   width: 50%;
   background-color: white;
   opacity: 0.8;
+  padding: 0.3rem;
 }
 
 .gamma {
   width: 24%;
   background-color: white;
   opacity: 0.8;
+  padding: 0.3rem;
 }
 
 .main-box span {
@@ -119,4 +122,81 @@ a {
 
 .notice-content{
   padding: 0.28rem;
+}
+
+
+.chatting{
+  margin: 0.5rem 0px 0px 0px;
+  border-radius: 0.5rem;
+  height: auto;
+  background-color: black;
+  padding: 0.3rem;  
+}
+
+.chatname{
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+.status{
+  font-size: 0.6rem;
+  
+}
+
+.profile{
+  display: flex;
+  background-color: rgb(27, 214, 111);
+  border-radius: 0.3rem;
+}
+
+.chat-profile{
+  height:1.5rem;
+  margin: 0.4rem;
+  margin-bottom: auto;
+}
+
+.status-text{
+  padding: 0.3rem;
+  
+
+  
+}
+
+.chats{
+  padding: 0.3rem;
+}
+.chats span{
+  font-size: 0.4rem;
+  width: 50%;
+  background-color: aqua;
+  padding: 0.2rem;
+
+  margin: 0.15rem;
+  display: inline-block;
+}
+
+.one, .two{
+  float: right;
+  border-radius: 1rem 1rem 0.1rem 1rem;
+}
+
+.three, .four{
+  border-radius: 1rem 1rem 1rem 0.1rem;
+}
+
+#chat-text{
+  margin: 0.1rem;
+  width: 9rem;
+  border: none;
+  border: 2px solid black;
+  border-radius: 2rem;
+  padding: 0.12rem 0.12rem 0.12rem 0.4rem;
+  display: inline-block;
+  /* outline: none; */
+  /* border: 0px; */
+}
+
+
+.sendbtn{
+  padding: 0.2rem 0.5rem;
+  font-size: 0.7rem;
 }
