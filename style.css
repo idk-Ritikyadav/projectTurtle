@@ -239,6 +239,7 @@ border-radius: 0.2rem;
   text-align: center;
   background-color: rgb(27, 214, 111);
   border-radius: 0.3rem;
+  border: 1px solid gray;
   color: black;
 
 
@@ -250,4 +251,11 @@ border-radius: 0.2rem;
   display: flex;
   padding: 0.3rem;
 
+}
+
+.posts{
+  background-color: white;
+  padding: 0.5rem;
+  margin: 0.3rem;
+  border-radius: 0.5rem;
 }
