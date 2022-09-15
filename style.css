@@ -253,26 +253,7 @@ hr {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  #alpha {
-    visibility: hidden;
-    display: none;
-  }
-
-  html {
-    background: orange;
-  }
-
-  #beta {
-    width: 100%;
-  }
-  #gamma {
-    visibility: hidden;
-    display: none;
-  }
-
-  .superbox {
-    display: hidden;
-  }
+  
 }
 
 /* // Medium devices (tablets, 768px and up) */
