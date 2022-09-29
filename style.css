@@ -13,21 +13,29 @@ html {
   margin: 0.5rem 2rem;
   background-color: rgb(27, 214, 111);
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* scrollbar */
 .beta::-webkit-scrollbar {
-  width: 13px; /* width of the entire scrollbar */
+  width: 8px;
+  /* width of the entire scrollbar */
 }
 
 .beta::-webkit-scrollbar-track {
-  background: white; /* color of the tracking area */
+  background: white;
+  /* color of the tracking area */
 }
+
 .beta::-webkit-scrollbar-thumb {
-  background-color: rgb(27, 214, 111); /* color of the scroll thumb */
-  border-radius: 20px; /* roundness of the scroll thumb */
-  border: 3px solid white; /* creates padding around scroll thumb */
+  background-color: rgb(27, 214, 111);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid white;
+  /* creates padding around scroll thumb */
 }
+
 a {
   color: black;
   text-decoration: none;
@@ -37,6 +45,7 @@ a {
   display: inline;
   align-items: center;
 }
+
 .menu li {
   list-style: none;
   display: inline;
@@ -45,7 +54,7 @@ a {
   font-size: 0.8rem;
 }
 
-.auth{
+.auth {
   color: blue;
 }
 
@@ -56,13 +65,16 @@ a {
   align-items: center;
   float: right;
 }
+
 .logo {
   display: inline;
   letter-spacing: 0em;
 }
+
 .logo span {
   color: blue;
 }
+
 .logo,
 .logo span {
   font-size: 2rem;
@@ -75,6 +87,7 @@ a {
   height: 80vh;
   display: flex;
 }
+
 .v {
   border: 2px solid black;
 }
@@ -105,17 +118,21 @@ a {
   opacity: 0.8;
   padding: 0.3rem;
 }
+
 hr {
   margin: 0.2rem;
 }
+
 .main-box span {
   display: block;
 }
+
 .pimage {
   width: 100%;
   height: 100%;
   border-radius: 0.2rem;
 }
+
 .postimg {
   overflow: hidden;
   padding: 0.3rem;
@@ -165,6 +182,7 @@ hr {
   font-weight: bold;
   font-size: 0.7rem;
 }
+
 .status {
   font-size: 0.6rem;
 }
@@ -188,6 +206,7 @@ hr {
 .chats {
   padding: 0.3rem;
 }
+
 .chats span {
   font-size: 0.4rem;
   width: 50%;
@@ -224,6 +243,8 @@ hr {
 .sendbtn {
   padding: 0.2rem 0.5rem;
   font-size: 0.7rem;
+  border-radius: 2rem;
+  border: none;
 }
 
 .react span {
@@ -236,6 +257,10 @@ hr {
   border-radius: 0.3rem;
   border: 1px solid gray;
   color: black;
+}
+
+.phone {
+  visibility: hidden;
 }
 
 .react {
@@ -252,33 +277,113 @@ hr {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  
-}
+@media (max-width: 576px) {
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  #alpha {
-    display: hidden;
+  body {
+    padding: 0%;
+    margin: 0px;
+
   }
 
   html {
-    color: orange;
+    background: orange;
+    padding: 0px;
+    margin: 0px;
   }
+
+  .phone {
+    visibility: visible;
+  }
+
+  /* *{
+    border: 1px solid black;
+  } */
+  #alpha {
+    border-radius: 0%;
+    margin: 0px;
+    height: 95vh;
+  }
+
+  #beta {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0%;
+    height: 93vh;
+
+  }
+
+  .superbox {
+    margin: 0px;
+  }
+
+  .headers {
+    display: none;
+  }
+
   #gamma {
+    padding: 0.5rem;
+    font-size: 2rem;
+    height: 93vh;
+    border-radius: 0%;
+    margin: 0%;
+  }
+
+  .chats {
+    height: 100%;
+  }
+
+  .superbox {
     display: hidden;
   }
 
-  .main-box {
+  nav {
     display: none;
   }
-}
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
+  .logo {
+    display: block;
+    text-align: center;
+  }
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  /* // Havent code only get for more informations */
+
+  .fa-solid:hover {
+    color: blue;
+  }
+
+  .fa-solid {
+    padding: auto 5rem;
+  }
+
+  .menu-items {
+    display: block;
+    text-align: center;
+  }
+
+  #phone-nav {
+    margin-top: 5rem;
+    padding: 1rem;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+
+  }
+
+
+
+  /* // Medium devices (tablets, 768px and up) */
+  @media (max-width: 768px) {}
+
+  /* // Large devices (desktops, 992px and up) */
+  @media (max-width: 992px) {}
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (max-width: 1200px) {
+    /* // Havent code only get for more informations */
+  }
 }
