@@ -7,7 +7,7 @@ function notice() {
 }
 
 
-
+home()
 function home() {
     document.getElementById("gamma").style.display = "none";
     document.getElementById("alpha").style.display = "none";
